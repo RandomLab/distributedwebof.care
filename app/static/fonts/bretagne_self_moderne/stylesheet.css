@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Bretagne-regular';
+    src:    url('bretagne_self-modern_italic-webfont.ttf');
+    src:    url('bretagne_self-modern_regular-webfont.woff') format('woff'),
+            url('bretagne_self-modern_regular-webfont.woff2') format('woff2'),
+            url('bretagne_self-modern_regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bretagne-text';
+    src:    url('fonts/bretagne_self_moderne/');
+    src:   
+            url('fonts/bretagne_self_moderne/bretagne_self-modern_text-webfont.woff') format('woff'),
+            url('fonts/bretagne_self_moderne/bretagne_self-modern_text-webfont.woff2') format('woff2'),
+            url('fonts/bretagne_self_moderne/bretagne_self-modern_text-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bretagne Self Moderne italic';
+    src:    url('fonts/bretagne_self_moderne/');
+    src:    
+            url('fonts/bretagne_self_moderne/bretagne_self-modern_italic-webfont.woff') format('woff'),
+            url('fonts/bretagne_self_moderne/bretagne_self-modern_italic-webfont.woff2') format('woff2'),
+            url('fonts/bretagne_self_moderne/bretagne_self-modern_italic-webfont.ttf') format('truetype');
+
+}

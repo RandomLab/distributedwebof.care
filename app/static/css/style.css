@@ -1,0 +1,111 @@
+
+
+h1{
+  background-color: white;
+  font-family:'Bretagne-regular';
+  background: linear-gradient(to left, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  text-align:left;
+  font-size:100px;
+  padding:210px 3.5%;
+}
+
+nav {
+  position: sticky;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+}
+
+.navigation ul {
+  font-family:'Courier New', Courier, monospace;
+  font-size:15px;
+  padding: 10px;
+  weight:100%;
+  color:white;
+  overflow: hidden;
+  background-color:rgb(255,255,0,0.3);
+}
+
+.navigation li {
+  float: left;
+}
+
+li a {
+  color: black;
+  padding: 80px 3px;
+  text-decoration: none;
+  position: relative;
+top: 1        <div class="jour">px; left:15px;
+}
+
+li a:hover {
+  text-decoration: underline;
+  font-style:italic;
+}
+
+h2 {
+  position: absolute;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 1rem;
+  transform-origin: top left;
+ /* transform: rotate(-90deg);*/
+  padding-top: 68px;
+  margin-left:30px;
+  /*margin-top: 15px;*/
+}
+
+p {
+  font-family:'Bretagne-regular';
+  padding: 50px 80px;
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  text-align: left;
+  font-size:30px;
+  line-height: 1.5;
+  text-indent: 20px;
+}
+
+img {
+  padding: 5px;
+  margin-left: 70px;
+  margin-right: auto;
+  display: block;
+  width: 50%;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgb(255,255,0);
+}
+
+.jour{
+  position: relative;
+  display: block;
+  height: 100px;
+  width: 400px;
+
+
+}
+.jour p{
+  position: relative;
+  display: inline-block;
+  margin: 30px;
+  padding: 0px;
+  margin-left: 30px;
+}
+.jour h2{
+  position: relative;
+  display: inline-block;
+  margin: 30px;
+  padding: 0px;
+  bottom:1px;
+  margin-left: 30px;
+}
+
+a {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
