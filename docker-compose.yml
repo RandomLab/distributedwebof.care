@@ -8,6 +8,6 @@ services:
       - .:/usr/src/app/
     ports:
       - 4001:4000
-    environnement:
+    environment:
       - PORT=4000
       - FLASK_DEBUG=1
