@@ -1,8 +1,12 @@
 FROM python:3.8.0
 
-COPY . /app
+RUN mkdir /usr/src/app
 
-WORKDIR /app
+COPY . /usr/src/app
+
+WORKDIR /usr/src/app
+
+EXPOSE 4000
 
 RUN pip install -r requirements.txt
 
